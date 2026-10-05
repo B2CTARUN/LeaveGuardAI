@@ -312,3 +312,5 @@ LeafGuard AI/
 
 [MIT](LICENSE) — dataset: [PlantVillage](https://github.com/spMohanty/PlantVillage-Dataset)
 (CC-BY-SA research data, downloaded as a subset; see `ml/dataset/raw/download_manifest.json`).
+
+> Release note: the project is packaged as a full-stack app with backend, frontend, and ML components for local or cloud deployment.
