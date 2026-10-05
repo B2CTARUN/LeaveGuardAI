@@ -37,3 +37,5 @@ services:
 
 volumes:
   mongo_data:
+
+# The stack is intended for local development and smoke testing before deployment.
