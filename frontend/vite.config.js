@@ -12,3 +12,5 @@ export default defineConfig({
     css: false,
   },
 })
+
+// Local API calls default to the backend on port 8000; override through VITE_API_URL for deployment-specific values.
