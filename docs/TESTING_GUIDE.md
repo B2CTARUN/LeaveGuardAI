@@ -92,3 +92,6 @@ Every pull request and push to the `main` branch automatically triggers `.github
    - Runs `npm ci`
    - Executes `npm test`
    - Executes `npm run build`
+
+## Test note
+Backend, ML, and frontend checks should be run together before shipping any release candidate.
