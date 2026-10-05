@@ -18,3 +18,5 @@ services:
         sync: false          # paste your deployed frontend URL (e.g. https://leafguard.vercel.app)
       - key: LOG_LEVEL
         value: INFO
+
+# The service is configured to expose the API, use MongoDB, and serve the frontend through the standard deployment pipeline.
