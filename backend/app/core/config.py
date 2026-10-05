@@ -41,3 +41,5 @@ class Settings(BaseSettings):
 @lru_cache
 def get_settings() -> Settings:
     return Settings()
+
+# Runtime configuration values are loaded from environment variables and kept out of git history.
