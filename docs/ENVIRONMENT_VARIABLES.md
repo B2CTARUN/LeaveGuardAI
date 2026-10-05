@@ -42,3 +42,6 @@ When deployed on Vercel with rewrite rules (see `frontend/vercel.json`), setting
 1. **Never commit `.env` files**: All `.env` and `.env.local` files are ignored by git.
 2. **MongoDB Atlas Credentials**: Use dedicated database users with least-privilege access rather than administrative root users.
 3. **CORS Origins**: Avoid using `*` wildcard origins in production environments. Explicitly list verified frontend hostnames.
+
+## Operational note
+Keep all credentials in local environment files and never commit real secrets to the repository.
