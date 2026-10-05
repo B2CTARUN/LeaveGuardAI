@@ -150,3 +150,6 @@ Indexes:
 - **Render** — backend auto-deploys from `render.yaml` blueprint.
 - **Vercel** — frontend auto-deploys; `vercel.json` rewrites `/api/*` to the Render backend.
 - **Docker Compose** — local full-stack: `docker compose up --build`.
+
+## Deployment note
+The application keeps model inference and repository logic behind clear service boundaries so future CNN swaps remain low-risk.
