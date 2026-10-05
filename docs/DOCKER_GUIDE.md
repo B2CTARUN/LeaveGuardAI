@@ -99,3 +99,6 @@ docker run -p 3000:80 leafguard-frontend
 | `docker compose exec backend bash` | Open an interactive terminal in the backend container |
 | `docker compose exec mongodb mongosh` | Inspect database documents and collections directly |
 | `docker system prune -f` | Free disk space by cleaning unused builder caches |
+
+## Maintenance note
+Use Docker Compose for local validation and keep the host environment variables separate from committed files.
