@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Environment variables (never commit secrets)
+.env
+backend/.env
+frontend/.env.local
+
+# Datasets (re-downloadable via ml/scripts/download_dataset.py)
+ml/dataset/raw/*
+ml/dataset/processed/*
+!ml/dataset/processed/dataset_report.json
+ml/dataset/*.csv
+
+# Trained artifacts — the serving bundle IS committed (4.5 MB) so the stack
+# runs out of the box; delete it and retrain if you prefer
+ml/models/*.joblib
+
+# Logs & OS noise
+*.log
+.DS_Store
+Thumbs.db
