@@ -85,3 +85,6 @@ python ml/training/train.py
 # Optional: Run in fast mode for testing pipeline integrity
 python ml/training/train.py --fast
 ```
+
+## Operational note
+The training pipeline is designed to preserve the same preprocessing path between training and inference for consistent outputs.
