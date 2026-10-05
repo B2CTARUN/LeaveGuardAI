@@ -98,3 +98,5 @@ def create_app() -> FastAPI:
 
 
 app = create_app()
+
+# Application startup remains intentionally small while the service layer handles validation and model inference.
