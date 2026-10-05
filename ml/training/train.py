@@ -331,3 +331,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+# Training entrypoints should be executed with a clean environment and a verified dataset before deployment.

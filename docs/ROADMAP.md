@@ -46,3 +46,6 @@ This roadmap outlines key milestones and anticipated feature improvements for **
 - Weather API integration to correlate localized humidity/rainfall with blight outbreak risks
 - Push notifications for proactive treatment windows
 - Multi-lingual UI localization (Hindi, Spanish, French, Swahili)
+
+## Final checklist
+Validate the deployed stack, verify metrics, and keep secrets out of source control before any public release.
